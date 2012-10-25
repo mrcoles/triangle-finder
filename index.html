@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>Triangle Finder - Puzzler Solution</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="main">
+            <div id="over-nav">
+              <a href="http://mrcoles.com">mrcoles.com</a>
+            </div>
+            <h1>Triangle Finder</h1>
+			<p>
+			  Find triangles inside graphs of edges and nodes.
+			  This was originally created using JavaScript and HTML5 to solve an
+			  <a href="http://www.npr.org/2012/10/07/162444203/frog-stuck-in-your-c-r-o-a-t">
+				NPR Sunday Puzzle</a>, which is the “hexagon” problem below.
+			</p>
+            <ul id="graphs"></ul>
+            <canvas id="c" width="500" height="340"></canvas>
+            <div id="controls" class="clr">
+                <div id="buttons"></div>
+            </div>
+            <p id="p"></p>
+        </div>
+        <script src="shape_finder.js"></script>
+        <script src="jquery.js"></script>
+        <script src="app.js"></script>
+
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_shortname = 'mrcoles';
+        var disqus_url = 'http://mrcoles.com/media/test/triangle-finder/';
+        (function(d) {
+        var dsq = d.createElement('script'); dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        d.getElementsByTagName('head')[0].appendChild(dsq);
+        })(document);
+    </script>
+<script>
+var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-4202460-2']); _gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = 'http://www.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+    </body>
+</html>

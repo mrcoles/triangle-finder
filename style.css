@@ -1,0 +1,100 @@
+
+body,div,p,h1,h2,h3,h4,h5,ul,ol,li,span{margin:0;padding:0;}
+
+html {
+    background: #f3f3f3;
+}
+
+body {
+    font: normal 14px/20px helvetica,arial,sans-serif;
+    color: #333;
+}
+
+#main {
+    position: relative;
+    width: 500px;
+    margin: 40px auto;
+    padding: 20px 40px;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+#disqus_thread {
+	position: relative;
+	width: 500px;
+	margin: 40px auto;
+}
+
+#over-nav {
+    position: absolute;
+    top: -25px;
+    right: 40px;
+}
+
+#over-nav a {
+    color: #555;
+}
+
+h1 { font-size: 24px; line-height: 30px; }
+
+p {
+    margin-bottom: 20px;
+}
+
+ul { list-style-type: none; }
+ol { margin-left: 1.5em; }
+
+li.odd {
+    color: #999;
+}
+
+.clr { overflow: hidden; zoom: 1; }
+.right { float: right; }
+.left { float: left; }
+
+a {
+    color: #33f;
+}
+
+#graphs { overflow: hidden; margin-bottom: 20px; }
+#graphs li {
+    float: left;
+    padding-right: 5px;
+    border-right: 1px solid #999;
+    margin-right: 5px;
+}
+#graphs li:last-child { border-right: 0; }
+
+#controls {
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+#controls a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 4px;
+    padding: 0 4px;
+    border: 1px solid #999;
+    color: #999;
+    height: 38px;
+    width: 38px;
+    text-align: center;
+    background: #eee;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    border-radius: 2px;
+    box-shadow: inset 1px 1px #fff, 1px 1px 1px rgba(0,0,0,.15);
+}
+#controls a:active {
+    color: #777;
+    border-color: #777;
+    box-shadow: none;
+}
+
+#buttons {
+    padding-right: 60px;
+    text-align: center;
+}
